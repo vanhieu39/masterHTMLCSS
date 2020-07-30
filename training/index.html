@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Buổi 3 - HTMl 5</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link href="./css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <!-- Quy tắc BEM:
+  B : Block 
+  E : Element -- Block__Element
+  M : Modify -- Block--Mofify -->
+  
+  <!-- <header> -->
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__title">BAKE</h1>
+        <ul class="header__menu">
+          <li class="active"><a href="">HOME</a></li>
+         <li><a href="">ABOUT</a></li>
+         <li><a href="">SERVICE</a></li>
+         <li><a href="">GALLERY</a></li>
+         <li><a href="">CLIENTS</a></li>
+         <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+   
+    <section class="cover">
+      <div class="cover__content">
+        <h1 class="cover__title">Best Bake Here</h1>
+        <p>Donec at massa nec sem eleifend fermentum.</p>
+        <button class="btn">LEARN MORE</button>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="tradition text__intro">
+        <div class="text__content">
+          <h1>Tradition</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe rerum placeat quasi dolorum exercitationem
+            accusantium.</p>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./img/ab1.jpg" alt="">
+      </div>
+      <div class="creativity text__intro wow fadeInLeft">
+        <div class="text__content">
+          <h1>Creativity</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe rerum placeat quasi dolorum exercitationem
+            accusantium.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <a href="#" class="cd-top js-cd-top" ></a>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+      $('.counter').countUp();
+    </script>
+  
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    </script>
+    <script src="./js/util.js"></script>
+    <script src="./js/backToTop.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+</body>
+
+</html>

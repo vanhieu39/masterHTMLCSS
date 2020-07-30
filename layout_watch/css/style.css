@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TOP  */
+.top{
+    width:100%;
+    background-color: black;
+    height: 80px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.cart{
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+}
+.cart p{
+    margin-top: 2px;
+    padding: 0;
+}
+.container .cart img{
+    height: 40px;
+    width: 30px;
+}
+.cart a:link,.cart a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* LOGO  */
+.logo{
+    text-align: center;
+    border-bottom: 1px solid #dad9d9;
+    padding: 20px;
+}
+.logo a:link,.logo a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.divLeft{
+    width: 70%;
+    height: 20px;
+    float: left;
+}
+.divLeft ul li{
+   float: left;
+   padding-right: 47px;
+   font-size: 20px;
+   list-style: none;
+}
+.divLeft ul li a{
+    text-decoration: none;
+    color:black;
+}
+.divLeft ul li:hover a{
+    color: green;
+}
+.divRight{
+    width: 30%;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+#btnSearch{
+    background: url("../images/search.png") no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border:none;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    right: 2%;
+}
+#txtSearch{
+    padding: 10px;
+    border:none;
+}
+.menu{
+    padding-top: 20px;
+}
+#containerSearch{
+    float:right;
+}
